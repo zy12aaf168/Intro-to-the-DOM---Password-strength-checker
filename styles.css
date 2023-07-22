@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container{
+  text-align: center;
+}
+
+
+input {
+  
+  padding: 20px 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.progress-bar {
+  height: 20px;
+  background-color: #f10e0e;
+  margin-top:20px;
+  width:0%;
+}
+
+.feedback {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.progress.red {
+  background-color: red;
+}
+
+.progress.orange {
+  background-color: orange;
+}
+
+.progress.green {
+  background-color: green;
+}

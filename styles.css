@@ -9,8 +9,8 @@ h1 {
 
 .container{
   text-align: center;
+  
 }
-
 
 input {
   
@@ -22,9 +22,13 @@ input {
 
 .progress-bar {
   height: 20px;
-  background-color: #f10e0e;
   margin-top:20px;
-  width:0%;
+  width:0;
+}
+
+.progress{
+  background-color: red;
+  width: 100%;
 }
 
 .feedback {
@@ -33,14 +37,17 @@ input {
   font-weight: bold;
 }
 
-.progress.red {
+.progress-red {
+  height: 100%;
   background-color: red;
 }
 
-.progress.orange {
+.progress-orange {
+  height: 100%;
   background-color: orange;
 }
 
-.progress.green {
+.progress-green {
+  height: 100%;
   background-color: green;
 }
